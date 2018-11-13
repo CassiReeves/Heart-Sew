@@ -1,0 +1,137 @@
+
+#mySidenav a {
+    position: fixed;
+    left: -110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+    left: 0;
+}
+.home {
+    top:20px;
+    background-color:#67AECA;
+   }
+#about {
+    top: 80px;
+    background-color: #4CAF50;
+}
+
+#portfolio {
+    top: 140px;
+    background-color: #2196F3;
+}
+
+#resume {
+    top: 200px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 260px;
+    background-color: #5F0F4E;
+}
+
+#NameTitle {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color:White;
+}
+#NameTitle2 {
+  position: absolute;
+  top: 350px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+h1 span {
+  color: white;
+  padding: 10px;
+  background: #675682;
+  border-radius: 10px 10px 10px 10px;
+}
+h2 span {
+  color: white;
+  padding: 10px;
+  background: #675682;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.right{
+  width: 400px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  vertical-align: center;
+  margin-left: 100px;
+  margin-top: 25px;
+  border-radius: 10px 10px 10px 10px;
+}
+img {
+  width:100%;
+  height: 100vh;
+}
+.AMText{
+  width: 100%;
+  height: 100vh;
+  background-color: #b3ddef;
+  text-align: right;
+  margin-right: 100px;
+  margin-left: 20px;
+
+}
+p {
+  margin-right: 150px;
+  color: #2c89c9;
+  font-weight: bold;
+}
+
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #67AECA;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover{
+  background-color: #E52A6F;
+  color: white;
+}
+.active {
+  background-color: #675682;
+  color: white;
+}
+.Content {
+  margin-left: 20%
+}
+*\
+
+
+/* blue topaz #67AECA, Amethyst #675682, Jewel #5F0F4E, Rose #E52A6F8*\
